@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GOONGRAM</class>
+ <widget class="QMainWindow" name="GOONGRAM">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1061</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>GOONGRAM</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::TabPosition::South</enum>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::TabShape::Triangular</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <property name="movable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Login</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="3" column="0">
+         <widget class="QLabel" name="label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>25</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>ENTER YOUR ID NUMBER:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>17</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="font">
+             <font>
+              <pointsize>17</pointsize>
+              <bold>true</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="text">
+             <string>DARK/LIGHT</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="piclable">
+            <property name="font">
+             <font>
+              <pointsize>14</pointsize>
+              <bold>true</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <family>Franklin Gothic</family>
+            <pointsize>39</pointsize>
+            <italic>false</italic>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>WELCOME TO GOON GRAM</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="0">
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>SET CURRENT USER</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Functions</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>LIKE A POST</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>COMMENT ON A POST</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Homepage</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="font">
+           <font>
+            <family>Cascadia Code</family>
+            <pointsize>40</pointsize>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>HOMEPAGE</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextBrowser" name="textBrowser">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>View Post</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="font">
+           <font>
+            <pointsize>22</pointsize>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>ENTER THE POST_ID</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="font">
+           <font>
+            <pointsize>18</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>LOAD LIKES ONLY</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>LOAD WHOLE POST</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextBrowser" name="textBrowser_2">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>View Page</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QLabel" name="label_9">
+          <property name="font">
+           <font>
+            <pointsize>24</pointsize>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>ENTER PAGE_ID</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_5">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>LOAD</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextBrowser" name="textBrowser_5">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>Friend List</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <pointsize>37</pointsize>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>FRIEND LIST</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextBrowser" name="textBrowser_3">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_7">
+       <attribute name="title">
+        <string>Liked Pages</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="font">
+           <font>
+            <pointsize>37</pointsize>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>LIKED PAGES</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextBrowser" name="textBrowser_4">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_8">
+       <attribute name="title">
+        <string>Profile</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="font">
+             <font>
+              <pointsize>37</pointsize>
+              <bold>true</bold>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="text">
+             <string>PROFILE (TIMELINE)</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_10">
+            <property name="font">
+             <font>
+              <pointsize>14</pointsize>
+              <bold>true</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="text">
+             <string>BOOST A POST( RUN AN AD)</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTextBrowser" name="textBrowser_6">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_9">
+       <attribute name="title">
+        <string>Memories</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+            <bold>false</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>MEMORIES</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="font">
+             <font>
+              <pointsize>14</pointsize>
+              <bold>true</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="text">
+             <string>ENTER POST ID TO UPLOAD IT AS A MEMORY</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_9">
+            <item>
+             <widget class="QLineEdit" name="lineEdit_3">
+              <property name="font">
+               <font>
+                <pointsize>14</pointsize>
+                <bold>false</bold>
+                <underline>false</underline>
+               </font>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_9">
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+                <bold>false</bold>
+                <underline>false</underline>
+               </font>
+              </property>
+              <property name="text">
+               <string>UPLOAD</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTextBrowser" name="textBrowser_7">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_10">
+       <attribute name="title">
+        <string>Bug</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_11">
+        <item>
+         <widget class="QLabel" name="label_11">
+          <property name="font">
+           <font>
+            <pointsize>33</pointsize>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>Report a bug</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_12">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>Enter some brief information about the issue you're facing and submit, so that the developers can fix that.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>SUMBIT</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1061</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuLog_Out">
+    <property name="title">
+     <string>Log Out</string>
+    </property>
+    <addaction name="actionLog_Out"/>
+   </widget>
+   <addaction name="menuLog_Out"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLog_Out">
+   <property name="text">
+    <string>Log Out</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
