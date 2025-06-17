@@ -18,7 +18,7 @@ git clone https://github.com/Yaseen-Ahmad-Khan/SocialMediaApp.git
 build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/Goon_gram.exe
 ```
 
-> 🗕️ **Important Step:**
+> 🗅️ **Important Step:**
 > To see posts from the last 24 hours, **set your system date to \*\*\*\*`15/05/2025`**.
 > This simulates the application's context as it was on the project submission date.
 
@@ -106,7 +106,8 @@ Set your system date to this day to experience the application as intended.
 
 ---
 
-## 📆 Requirements
+## 🗖️ Requirements
 
 * Qt 6.9.0 or later
 * C++
+* Runs with full graphical support on **Windows 10 or Windows 10 Pro** only
